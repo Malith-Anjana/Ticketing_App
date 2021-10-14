@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:transitionName="logo_image" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Welcome,"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:transitionName="logo_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp to start your new Journey"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:transitionName="logo_desc" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/reg_name"
+            android:layout_width="match_parent"
+            android:paddingStart="10dp"
+            android:layout_marginVertical="3dp"
+            android:layout_height="45dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Full Name"/>
+
+
+
+
+        <EditText
+                    android:id="@+id/reg_email"
+            android:paddingStart="10dp"
+            android:layout_marginVertical="3dp"                    android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/edit_text_bg"
+                    android:inputType="textEmailAddress"
+
+                    android:hint="Email"/>
+
+        <EditText
+                        android:id="@+id/reg_phoneNo"
+            android:paddingStart="10dp"
+            android:layout_marginVertical="3dp"                        android:layout_width="match_parent"
+            android:layout_height="45dp"
+                        android:inputType="phone"
+            android:background="@drawable/edit_text_bg"
+                        android:hint="Phone No"/>
+
+        <EditText
+                            android:id="@+id/reg_password"
+            android:paddingStart="10dp"
+            android:layout_marginVertical="3dp"                            android:layout_width="match_parent"
+            android:layout_height="45dp"
+                            android:hint="Password"
+            android:background="@drawable/edit_text_bg"
+                            android:inputType="textPassword"
+                            android:transitionName="password_tran"
+                            app:passwordToggleEnabled="true"/>
+
+                                <Button
+                                    android:id="@+id/reg_btn"
+                                    android:layout_width="250dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/button_bg"
+                                    android:text="GO"
+                                    android:layout_marginVertical="10dp"
+                                    android:textColor="#fff"
+                                    android:transitionName="button_tran" />
+                                <Button
+                                    android:id="@+id/reg_login_btn"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins"
+                                    android:textSize="12dp"
+                                    android:background="#00000000"
+                                    android:text="Already have an account? LogIn" />
+    </LinearLayout></LinearLayout>

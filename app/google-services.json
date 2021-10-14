@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112679014490",
+    "firebase_url": "https://csse-ticketservice-default-rtdb.firebaseio.com",
+    "project_id": "csse-ticketservice",
+    "storage_bucket": "csse-ticketservice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112679014490:android:6c6e01098a034d07998863",
+        "android_client_info": {
+          "package_name": "com.example.csse_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112679014490-a210ir5v2i0tk1d0oidvb5dar08s71a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.csse_project",
+            "certificate_hash": "a9932ad1a323175151b18bfdccbf14f3be69f509"
+          }
+        },
+        {
+          "client_id": "112679014490-1f2jg6o6lsvpgsa9a16admul8ar48blf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYNXPIxZdnrxWtpNeE6NfdQNM5l6332dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112679014490-1f2jg6o6lsvpgsa9a16admul8ar48blf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

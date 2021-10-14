@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="label_buy_now"> Confirm Payment </string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="add_credit">Add Credit</string>
+
+</resources>
